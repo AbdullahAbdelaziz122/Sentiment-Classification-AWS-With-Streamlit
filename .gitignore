@@ -18,14 +18,8 @@ s3_assets/
 */merges.txt
 */vocab.json
 */vocab.txt
-*/adapter_config.json
-*/adapter_model.bin
-*/adapter_model.safetensors
 
 # Credentials and Private Keys
-*/creds/
-creds/kgptalkie.pem
-
 # Training, Checkpoint, and Model Artifacts
 train_dir
 */train_dir/
