@@ -1,6 +1,12 @@
-# Sentiment Classification with AWS S3 & Streamlit Deployment
+# Sentiment Classification with AWS S3 & Streamlit
 
-This project demonstrates a Sentiment classification pipeline using a machine learning model Tiny Bert trained on IMDB Movies reviews stored on AWS S3 and deployed via Streamlit Hub.
+This project showcases a sentiment classification pipeline using a Tiny BERT machine learning model trained on IMDB movie reviews. The trained model is securely stored on AWS S3 and deployed through an interactive Streamlit web application.
+
+**Live Demo:** [Try the Application](https://sentiment-classification-tiny-bert.streamlit.app/)
+
+- Efficient cloud-based model storage and retrieval.
+- Real-time sentiment analysis via a user-friendly web interface.
+- Seamless deployment for both local and cloud environments.
 
 ## Features
 
