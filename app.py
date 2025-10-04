@@ -48,8 +48,11 @@ if predict_button:
         classifier = pipeline('text-classification', model = './models/tiny_bert_sentiment', device=device)
     
         output = classifier(text)
-     
-    st.write(output)
+
+    if output[0]['label'] == 'negative':
+        st.warning("Negative")
+    else:
+        st.info('Postive')
     
 
 st.caption("Made By Abdullah Abdelaziz ❤️")
