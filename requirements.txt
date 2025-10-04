@@ -1,0 +1,9 @@
+transformers==4.43.3
+streamlit==1.34.0
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+boto3==1.34.149
+matplotlib==3.5.2
+boto3==1.34.149
+dotenv

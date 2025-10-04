@@ -1,0 +1,50 @@
+test
+creds
+creds/*
+testUser-Access-Key.ipynb_checkpoints
+.ipynb_checkpoints/*
+AWS/*
+assets/
+s3_assets/
+*/.ipynb_checkpoints/*
+model.safetensors
+
+*/config.json
+*/model.safetensors
+*/pytorch_model.bin
+*/training_args.bin
+*/special_tokens_map.json
+*/tokenizer_config.json
+*/tokenizer.json
+*/merges.txt
+*/vocab.json
+*/vocab.txt
+*/adapter_config.json
+*/adapter_model.bin
+*/adapter_model.safetensors
+
+# Credentials and Private Keys
+*/creds/
+creds/kgptalkie.pem
+
+# Training, Checkpoint, and Model Artifacts
+train_dir
+*/train_dir/
+*.safetensors
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.ckpt-*
+*.ckpt_*
+*.bin
+*.tar
+
+# Logs and TensorBoard
+*/runs/
+*/runs_*
+*/runs/*/
+*tfevents*
+
+# Vocabulary and other large/derived files
+*vocab.txt
