@@ -28,12 +28,14 @@ def download_folder(bucket_name, local_path, s3_prefix):
 
 st.header("Machine Learning")
 
-model_button = st.button("Download Model")
-if model_button:
-    with st.spinner("Downloading... Please wait!"):
-        download_folder(bucket_name, local_path, s3_prefix)
-    
-    st.info("Download Complete")
+
+if not os.path.isdir(local_path):
+    model_button = st.button("Download Model")
+    if model_button:
+        with st.spinner("Downloading... Please wait!"):
+            download_folder(bucket_name, local_path, s3_prefix)
+        
+        st.info("Download Complete")
         
 
 text = st.text_area("Enter Your Review")
