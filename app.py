@@ -26,7 +26,7 @@ def download_folder(bucket_name, local_path, s3_prefix):
                 s3.download_file(bucket_name, s3_key, local_file)
 
 
-st.header("Machine Learning")
+st.header("Sentiment Analysis")
 
 
 if not os.path.isdir(local_path):
@@ -38,7 +38,7 @@ if not os.path.isdir(local_path):
         st.info("Download Complete")
         
 
-text = st.text_area("Enter Your Review")
+text = st.text_area("Enter Your Sentence")
 
 predict_button = st.button("Predict")
 
@@ -52,3 +52,4 @@ if predict_button:
     st.write(output)
     
 
+st.caption("Made By Abdullah Abdelaziz ❤️")
